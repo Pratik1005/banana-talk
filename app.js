@@ -2,7 +2,7 @@ var textInput = document.querySelector("#txt-input");
 var btnTranslate = document.querySelector("#btn-translate");
 var outputDiv = document.querySelector("#output");
 
-var serverURL = "https://api.funtranslations.com/translate/minion.json";
+var serverURL = "https://api.funtranslations.com/translate/morse.json";
 
 // https://api.funtranslations.com/translate/morse.json
 
@@ -14,7 +14,7 @@ function getTranslationURL(text) {
 }
 
 
-function clickHandler(event) {
+function clickHandler() {
     console.log("clicked");
     var inputText = textInput.value;
 
