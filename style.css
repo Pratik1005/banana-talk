@@ -14,7 +14,7 @@ body{
 }
 
 input[type=text]{
-    font-family: font-family: 'Kalam', cursive;
+    font-family: 'Kalam', cursive;
 }
 
 textarea {
@@ -23,7 +23,7 @@ textarea {
     display: block;
     margin: 1rem 0;
     padding: 1rem;
-    font-family: font-family: 'Kalam', cursive;
+    font-family: 'Kalam', cursive;
 }
 #output{
     width: 100%;
