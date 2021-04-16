@@ -5,30 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Banana talk</title>
-    <style>
-        textarea {
-            width: 80%;
-            height: 10vh;
-            display: block;
-            margin: 1rem;
-            padding: 1rem;
-        }
-        #output{
-            width: 80%;
-            height: 10vh;
-            margin: 1rem;
-            padding: 1rem;
-            border: 1px solid #333;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Banana Talk</h1>
-    <textarea id="txt-input" placeholder="Type anything here to convert it in banana translation"></textarea>
-    <button id="btn-translate">Translate</button>
-
-    <div style="font-size: larger;">Output will show here 👇</div>
-    <div id="output"></div>
+    <div class="container">
+        <textarea id="txt-input" placeholder="Type anything here to convert it in banana translation"></textarea>
+        <button id="btn-translate">Translate to banana</button>
+        <h3>Output will show here 👇</h3>
+        <div id="output"></div>
+    </div>
+    
     <script src="app.js"></script>
 </body>
 </html>
